@@ -1,0 +1,47 @@
+{
+
+    "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentParameters.json#",
+
+    "contentVersion": "1.0.1",
+
+    "parameters": {
+
+        "mspOfferName": {
+
+            "value": "Warren Averett Lighthouse"
+
+        },
+
+        "mspOfferDescription": {
+
+            "value": ""
+
+        },
+
+        "managedByTenantId": {
+
+            "value": "737ddd5f-4382-4e70-b659-ca5788f3e970"
+
+        },
+
+        "authorizations": {
+
+            "value": [
+
+                {
+
+                    "principalId": "11de4377-277b-433e-a317-9bd53174ec1b",
+
+                    "principalIdDisplayName": "LightHouse Admins",
+
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
+
+                }
+
+            ]
+
+        }
+
+    }
+
+}
